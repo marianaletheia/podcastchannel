@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+   
+    <!-- google fonts  -->
+   
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header"> 
+        <span class="logo">
+            <img  src="images/logo.svg" alt="logo" height="24px" width= "24px">
+        </span>
+            <!-- menu hamburguesa -->
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+            <ul class="menu">  
+                <li> <a href="#episodios">Episodios</a> </li>
+                <li> <a href="#nosotros">Nosotros</a> </li>
+                <li> <a href="#invitados">Entrevistas</a> </li>
+                <li> <a href="#topicos">Tópicos</a> </li>
+            </ul>
+    </header> 
+
+    <main class="main-text"> 
+        <h1>Hello <span class="cross"> world </span> <br> pale blue dot <span class="bluedot">.</span></h1>
+        <h3> El portal de podcasts que explora el mundo de la programación y <br>
+                tecnología. Nuevos episodios, todos los jueves cada 15 días.</h3>
+        <div class="buttonheader">
+            <button> Conocé más </button>
+        </div>     
+    </main>
+
+    <section class="spotify" id="episodios">
+        <div class="bluebox"> 
+            <h2 class="episode">Episodios </h2>
+            <div class="iframe"> 
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1vAa4RWvxmcS8Z736b3H7M" width="500px" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="iframe">     
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1iewMb6iACRwwvfEUejtwj" width="500px" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="iframe"> 
+                <iframe src="https://open.spotify.com/embed-podcast/episode/2OFbaAv83q5hMAgCp24Hau" width="500px" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="iframe"> 
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1cJid8MowLgC5WIVkxQIk8" width="500px" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>   
+        </div>
+    </section>
+    <section id="nosotros">
+        <div class="phone">
+            <img src="images/phone.png" alt="phone" >
+        </div>
+        <article class="article"> 
+                <h2> De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+                    Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </article>
+    </section>  
+    <section class="gallery" id="invitados"> 
+        <h2>Invitados Estelares</h2>
+        <div class="images">
+            <img src="images/mujeres1.jpg" alt="mujer en ciencia1">
+            <img src="images/mujeres3.jpg" class="center2" alt="mujer en ciencia3">
+            <img src="images/mujeres2.jpg" alt="mujer en ciencia2">
+        </div>
+        <div class="images">  
+            <img src="images/mujeres4.jpg"  alt="mujer en ciencia4">
+            <img src="images/mujeres5.jpeg" class="center2" alt="mujer en ciencia5">
+            <img src="images/mujeres6.jpg" alt="mujer en ciencia6">
+        </div>
+    </section>
+    <section class="icons" id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="boxes">
+            <img src="images/icon1.svg" alt="trabajo" height="104px" width= "104px">
+            <h5>Trabajo Conjunto</h5>
+        </div>
+        <div class="boxes">
+            <img src="images/icon2.svg" alt="repensando" height="104px" width= "104px">
+            <h5>Repensando la historia</h5>
+        </div>  
+        <div class="boxes">
+            <img src="images/icon3.svg" alt="bases" height="104px" width= "104px">
+            <h5>Bases de la ciencia</h5>
+        </div>
+        <div class="boxes">
+            <img src="images/icon4.svg" alt="adn" height="104px" width= "104px">
+            <h5>ADN</h5>
+        </div>
+    </section>
+    <section class="news">
+        <div class="bluebox2">
+            <h2>¿Querés las <br> últimas <br> novedades?</h2>
+            <button class="buttonsection">Escuchá los episodios</button>
+        </div>
+    </section>
+    <footer class="footer">
+            <a href="#">© 2019— Hello blue pale dot </a>
+            <nav class="socialnav">
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-telegram"></i>
+            </nav>
+</footer>
+
+</body>
+</html>
