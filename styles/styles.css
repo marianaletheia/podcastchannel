@@ -65,6 +65,8 @@ line-height: 28px;
 }
 
 .header .logo{
+    height:"24px";
+    width:"24px";
     display: inline-block;
     vertical-align: baseline;
     padding: 16px 16px 0;
@@ -217,8 +219,10 @@ main.main-text{
     min-width: 298px;
     max-width: 584px;
     width: 100%;
-    margin: 0 auto;
-
+    margin: 0 auto; 
+    height:232px;  
+    border: 0px;  
+    background-color: transparent;
 }
 .iframe{
     width: 50%;
@@ -404,9 +408,9 @@ text-decoration: none;
     text-align: center;
     
 }
-.socialnav i{
+.socialnav a{
     display: inline-block;
-    padding: 20px;
+    padding: 18px;
 }
 
 
